@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
   let text = "";
 
-  const countWords = (str) => {
+  const countWords = (str: string) => {
     return str.trim().length === 0
       ? 0
       : str.trim().split(/\s+/).length;
